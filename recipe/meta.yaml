@@ -1,5 +1,5 @@
 {% set name = "uranography" %}
-{% set version = "0.1.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/uranography-{{ version }}.tar.gz
-  sha256: cb3b81e5868a86a55496781b6f44df0f7acbec9e49243f5b411ce24dee673acd
+  sha256: 62ad723c223eaec13ed5739c7650fd855375b69502b8b9237201a8fc4eb814aa
 
 build:
   noarch: python
