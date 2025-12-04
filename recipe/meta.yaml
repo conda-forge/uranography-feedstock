@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - pandas
-    - astropy >=5.3
+    - astropy-base >=5.3
     - healpy
     - healsparse
     - bokeh >=3.1.1
